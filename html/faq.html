@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Sscrap Admin panel</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/adminwrap-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header card-no-border fix-sidebar">
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Admin Wrap</p>
+        </div>
+    </div>
+
+    <div id="main-wrapper">
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <b class="d-inline d-md-none">
+                            <img src="./img/logo-small.png" alt="" class="dark-logo px-3 img-fluid">
+                        </b>
+                        <span>
+                            <!-- dark Logo text -->
+                            <img src="./img/logo.png" alt="homepage" class="dark-logo px-5 img-fluid" />
+                            <!-- Light Logo text -->
+                        </span>
+                    </a>
+                </div>
+                <!-- End Logo -->
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="fa fa-bars"></i></a> </li>
+                        <!-- Search -->
+                        <li class="nav-item hidden-xs-down search-box"> <a
+                                class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
+                                    class="fa fa-search"></i></a>
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search & enter"> <a
+                                    class="srh-btn"><i class="fa fa-times"></i></a></form>
+                        </li>
+                    </ul>
+                    <!-- User profile and search -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- Profile -->
+                        <li class="nav-item dropdown u-pro">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="javascript:void(0)"
+                             aria-haspopup="true" aria-expanded="false" id="dropdownMenuButton" data-toggle="dropdown"><img
+                                    src="./img/profile-img.png" alt="user" class="" /> <span
+                                    class="hidden-md-down">Vijender Singh</span> </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item bg-light-info" href="#">Go to Sscrap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">Edit Profile</a>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- End Topbar header -->
+        <!-- Left Sidebar   -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i
+                                    class="fa fa-tachometer"></i><span class="hide-menu">Overview</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i
+                                    class="fa fa-user-circle-o"></i><span class="hide-menu">Profile</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./user.html" aria-expanded="false"><i
+                                    class="fa fa-users"></i><span class="hide-menu">Users</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./bidding.html" aria-expanded="false"><i
+                                    class="fa fa-dollar "></i><span class="hide-menu">Bidders</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./sellers.html" aria-expanded="false"><i
+                                    class="fa fa-cart-plus"></i><span class="hide-menu">Sellers</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./buyers.html" aria-expanded="false"><i
+                                    class="fa fa-dollar "></i><span class="hide-menu">Buyers</span></a>
+                        </li>
+                        <li>
+                            <hr class="my-3">
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./services.html" aria-expanded="false">
+                            <i class="fa fa-cog"></i><span class="hide-menu">Services</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark active" href="./faq.html" aria-expanded="false">
+                            <i class="fa fa-question-circle"></i><span class="hide-menu">FAQ</span></a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+
+        <!-- Page wrapper  -->
+        <div class="page-wrapper">
+            <!-- Container fluid  -->
+            <div class="container-fluid">
+                <div class="row page-titles">
+                    <div class="col-md-5 align-self-center">
+                        <h3 class="text-themecolor">F.A.Q</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                            <li class="breadcrumb-item active">FAQ Page</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-7 align-self-center">
+                        <a href="" class="btn waves-effect waves-light btn btn-info pull-right hidden-sm-down"> Contact us</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card ribbon ribbon-corner">
+                            <div class="card-body">
+                                <div id="accordion">
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none     border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                          3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
+                                          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+                                          Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                          Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
+                                          raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse2" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none   border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse3" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse4" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse5" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card mb-0">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse6" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-6">
+                        <div class="card ribbon ribbon-corner">
+                            <div class="card-body">
+                                <div id="accordion">
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none     border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collap2" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collap2" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                                          3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
+                                          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+                                          Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                          Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
+                                          raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse22" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none   border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse33" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse33" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse44" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse44" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse55" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse55" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                                    <div class="card mb-0">
+                                      <div class="card-header p-0 bg-none  border-bottom-0" id="headingOne">
+                                        <h6 class="mb-0">
+                                          <button class="btn waves-effect btn-light btn-block text-left" data-toggle="collapse" data-target="#collapse66" aria-expanded="true" aria-controls="collapseOne">
+                                            How to add new products category?
+                                          </button>
+                                        </h6>
+                                      </div>
+                                  
+                                      <div id="collapse66" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!--- faq -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                  <div class="card shadow mt-3">
+                    <div class="card-body bg-info text-white">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat temporibus quibusdam soluta maxime facere assumenda unde omnis illum ducimus hic, dolore molestias et repudiandae rem, excepturi similique id qui?
+                    </div>
+                  </div>
+                </div>
+                <!-- ============================================================== -->
+
+                <!-- End Right sidebar -->
+            </div>
+
+            <footer class="footer"> © 2020 ssCrap </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+        </div>
+
+    </div>
+
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/node_modules/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+</body>
+
+</html>

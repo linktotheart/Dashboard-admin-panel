@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords">
+        <meta name="robots" content="noindex,nofollow">
+        <title>Sscrap Admin panel</title>
+        <link rel="canonical" href="https://www.wrappixel.com/templates/adminwrap-lite/" />
+        <!-- Favicon icon -->
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+        <!-- Bootstrap Core CSS -->
+        <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/colors/default.css" id="theme" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+
+<body class="fix-header fix-sidebar card-no-border">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label sr-only"> Loader</p>
+        </div>
+    </div>
+    <div id="main-wrapper">
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <b class="d-inline d-md-none">
+                            <img src="./img/logo-small.png" alt="" class="dark-logo px-3 img-fluid">
+                        </b>
+                        <span>
+                            <!-- dark Logo text -->
+                            <img src="./img/logo.png" alt="homepage" class="dark-logo px-5 img-fluid" />
+                            <!-- Light Logo text -->
+                        </span>
+                    </a>
+                </div>
+                <!-- End Logo -->
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="fa fa-bars"></i></a> </li>
+                        <!-- Search -->
+                        <li class="nav-item hidden-xs-down search-box"> <a
+                                class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
+                                    class="fa fa-search"></i></a>
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search & enter"> <a
+                                    class="srh-btn"><i class="fa fa-times"></i></a></form>
+                        </li>
+                    </ul>
+                    <!-- User profile and search -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- Profile -->
+                        <li class="nav-item dropdown u-pro">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="javascript:void(0)"
+                             aria-haspopup="true" aria-expanded="false" id="dropdownMenuButton" data-toggle="dropdown"><img
+                                    src="./img/profile-img.png" alt="user" class="" /> <span
+                                    class="hidden-md-down">Vijender Singh</span> </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item bg-light-info" href="#">Go to Sscrap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">Edit Profile</a>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- End Topbar header -->
+        <!-- Left Sidebar   -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i
+                                    class="fa fa-tachometer"></i><span class="hide-menu">Overview</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i
+                                    class="fa fa-user-circle-o"></i><span class="hide-menu">Profile</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./user.html" aria-expanded="false"><i
+                                    class="fa fa-users"></i><span class="hide-menu">Users</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./bidding.html" aria-expanded="false"><i
+                                    class="fa fa-dollar"></i><span class="hide-menu">Bidders</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./sellers.html" aria-expanded="false"><i
+                                    class="fa fa-cart-plus"></i><span class="hide-menu">Sellers</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./buyers.html" aria-expanded="false"><i
+                                    class="fa fa-dollar "></i><span class="hide-menu">Buyers</span></a>
+                        </li>
+                        <li>
+                            <hr class="my-3">
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./services.html" aria-expanded="false">
+                            <i class="fa fa-cog"></i><span class="hide-menu">Services</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./faq.html" aria-expanded="false">
+                            <i class="fa fa-question-circle"></i><span class="hide-menu">FAQ</span></a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- Page wrapper  -->
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <!-- Bread crumb -->
+                <div class="row page-titles">
+                    <div class="col-md-5 align-self-center">
+                        <h3 class="text-themecolor">Overview</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="./">Home</a></li>
+                            <li class="breadcrumb-item active">Overview</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-light ml-auto">
+                                Go to Sscrap
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- our products -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Recently Added Products</h4>
+                                <h6 class="card-subtitle">Products added within last months</h6>
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Product Name</th>
+                                                <th>Quantity</th>
+                                                <th>Pricing</th>
+                                                <th>Type</th>
+                                                <th>Owner</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Iron Fe Oxi</td>
+                                                <td>10 Lac</td>
+                                                <td>$12</td>
+                                                <td>Seller</td>
+                                                <td>Mashu</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Iron Fe Oxi</td>
+                                                <td>10 Lac</td>
+                                                <td>$12</td>
+                                                <td>Seller</td>
+                                                <td>Mashu</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Iron Fe Oxi</td>
+                                                <td>10 Lac</td>
+                                                <td>$12</td>
+                                                <td>Seller</td>
+                                                <td>Mashu</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Plastic</td>
+                                                <td>10.0 KG</td>
+                                                <td>$59</td>
+                                                <td>Buyer</td>
+                                                <td>Rishi</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>IMetal oxx</td>
+                                                <td>10 Lac</td>
+                                                <td>$12</td>
+                                                <td>Seller</td>
+                                                <td>Sonya</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Iron Fe Oxi</td>
+                                                <td>10 Lac</td>
+                                                <td>$12</td>
+                                                <td>Seller</td>
+                                                <td>Mashu</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex m-b-30 no-block">
+                                    <h5 class="card-title m-b-0 align-self-center">Total Products</h5>
+
+                                    <div class="ml-auto">
+                                        <select class="custom-select b-0">
+                                            <option selected="">2018</option>
+                                            <option value="1">2019</option>
+                                            <option value="1">2020</option>
+                                            <option value="1">2021</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="visitor" style="height:260px; width:100%;"></div>
+                                <ul class="list-inline m-t-30 text-center font-12">
+                                    <li><i class="fa fa-circle text-purple"></i> Buyers</li>
+                                    <li><i class="fa fa-circle text-success"></i> Bidders</li>
+                                    <li><i class="fa fa-circle text-info"></i> Selelrs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Sales Chart -->
+                <!-- Products  of the Month -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="card-title">Products of the Month</h5>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <select class="custom-select b-0">
+                                            <option selected="">January</option>
+                                            <option value="1">February</option>
+                                            <option value="2">March</option>
+                                            <option value="3">April</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="table-responsive m-t-20 no-wrap">
+                                    <table class="table vm no-th-brd pro-of-month">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2">Name</th>
+                                                <th>Product</th>
+                                                <th>Price</th>
+                                                <th>Quantity</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:50px;"><span class="round">S</span></td>
+                                                <td>
+                                                    <h6>Sunil Joshi</h6><small class="text-muted">Buyer</small>
+                                                </td>
+                                                <td>12K Iron PP</td>
+                                                <td>$3.9K</td>
+                                                <td>115</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td><span class="round"><img src="../assets/images/users/2.jpg"
+                                                            alt="user" width="50"></span></td>
+                                                <td>
+                                                    <h6>Andrew </h6><small class="text-muted">Seller</small>
+                                                </td>
+                                                <td>Real Homes</td>
+                                                <td>$23K</td>
+                                                <td>69</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="round round-success">B</span></td>
+                                                <td>
+                                                    <h6>Bhavesh Kumar</h6><small class="text-muted">Bidder</small>
+                                                </td>
+                                                <td>Meidicnce JJ Also</td>
+                                                <td>$69K</td>
+                                                <td>12 Lac</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td><span class="round"><img src="../assets/images/users/2.jpg"
+                                                            alt="user" width="50"></span></td>
+                                                <td>
+                                                    <h6>Andrew </h6><small class="text-muted">Seller</small>
+                                                </td>
+                                                <td>Real Homes</td>
+                                                <td>$23K</td>
+                                                <td>69</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="round round-success">B</span></td>
+                                                <td>
+                                                    <h6>Bhavesh Kumar</h6><small class="text-muted">Bidder</small>
+                                                </td>
+                                                <td>Meidicnce JJ Also</td>
+                                                <td>$69K</td>
+                                                <td>12 Lac</td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class=" card-title">Top Locations</h5>
+                                <ul class="feeds">
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-map-marker"></i></div> 
+                                         Kolkata
+                                         <span class="text-muted  align-self-center">123565</span>
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-map-marker"></i></div> 
+                                         Delhi
+                                         <span class="text-muted  align-self-center">123565</span>
+
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-map-marker"></i></div> 
+                                        Mumbai
+                                        <span class="text-muted  align-self-center">123565</span>
+
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-map-marker"></i></div> 
+                                        Ghaziabad
+                                        <span class="text-muted  align-self-center">123565</span>
+
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-map-marker"></i></div> 
+                                        Mumbai
+                                        <span class="text-muted align-self-center">123565</span>
+
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-map-marker"></i></div> 
+                                        Banglore
+                                        <span class="text-muted  align-self-center">123565</span>
+
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-map-marker"></i></div> 
+                                        Shimla
+                                        <span class="text-muted  align-self-center">123565</span>
+
+                                    </li>
+                                   
+                                </ul>
+                                <a href="./sellers.html" class="btn btn-light mt-2">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Projects of the Month -->
+
+                <div class="row">
+                    <!-- Start Notification -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card card-body mailbox">
+                            <h5 class="card-title">Notification</h5>
+                            <div class="message-center ps ps--theme_default ps--active-y"
+                                data-ps-id="a045fe3c-cb6e-028e-3a70-8d6ff0d7f6bd">
+                                <!--- alert 1 -->
+                                <div class="alert alert-info alert-dismissible fade show mb-3 px-4" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <strong>Welcome Vijender</strong> You should check your profile below.
+                                </div>
+                                  <!--- alert 2 -->
+                                <div class="alert alert-danger alert-dismissible fade show mb-3 px-4" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    Welcome to sScrap!
+                                </div>
+                                  <!--- alert 3 -->
+                                <div class="alert alert-success alert-dismissible fade show mb-3 px-4" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    You can complete clear these noitifcations.
+                                </div>
+                                  <!--- alert 4 -->
+                                <div class="alert alert-success alert-dismissible fade show mb-3 px-4" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    You can complete clear these noitifcations.
+                                </div>
+                                  <!--- alert 5 -->
+                                <div class="alert alert-success alert-dismissible fade show mb-3 px-4" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    You can complete clear these noitifcations.
+                                </div>
+                                  <!--- alert 6 -->
+                                <div class="alert alert-success alert-dismissible fade show mb-3 px-4" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    You can complete clear these noitifcations.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Notification -->
+                    <!-- Start Feeds -->
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center pb-2 border-bottom">
+                                    <h5 class="card-title m-b-0">To Do</h5>
+                                    <button class="btn btn-primary btn-sm ml-auto">
+                                        Add new
+                                    </button>
+                                </div>
+                                <ul class="feeds">
+                                    <li>
+                                        <div class="bg-light-info"><i class="fa fa-bell-o"></i></div> You have 4 pending
+                                        tasks. <span class="text-muted">Just Now</span>
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-success"><i class="fa fa-server"></i></div> Server #1
+                                        overloaded.<span class="text-muted">2 Hours ago</span>
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-warning"><i class="fa fa-shopping-cart"></i></div> New
+                                        order received.<span class="text-muted">31 May</span>
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-danger"><i class="fa fa-user"></i></div> New user
+                                        registered.<span class="text-muted">30 May</span>
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-inverse"><i class="fa fa-bell-o"></i></div> New Version
+                                        just arrived. <span class="text-muted">27 May</span>
+                                    </li>
+                                    <li>
+                                        <div class="bg-light-info"><i class="fa fa-bell-o"></i></div> You have 4 pending
+                                        tasks. <span class="text-muted">Just Now</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Feeds -->
+                </div>
+                <!-- End Notification And Feeds -->
+                <!-- End Page Content -->
+            </div>
+            <!-- End Container fluid  -->
+            <!-- footer -->
+            <footer class="footer"> © 2020 sccrap Admin </footer>
+            <!-- End footer -->
+        </div>
+    </div>
+    <!-- End Wrapper -->
+    <!-- All Jquery -->
+    <script src="../assets/node_modules/jquery/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="../assets/node_modules/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!-- This page plugins -->
+
+    <!--c3 JavaScript -->
+    <script src="../assets/node_modules/d3/d3.min.js"></script>
+    <script src="../assets/node_modules/c3-master/c3.min.js"></script>
+    <!-- Chart JS -->
+    <script src="js/dashboard1.js"></script>
+</body>
+
+</html>

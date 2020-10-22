@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords">
+        <meta name="robots" content="noindex,nofollow">
+        <title>Sscrap Admin panel</title>
+        <link rel="canonical" href="https://www.wrappixel.com/templates/adminwrap-lite/" />
+        <!-- Favicon icon -->
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+        <!-- Bootstrap Core CSS -->
+        <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/colors/default.css" id="theme" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+
+<body class="fix-header card-no-border fix-sidebar">
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Admin Wrap</p>
+        </div>
+    </div>
+
+    <div id="main-wrapper">
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <b class="d-inline d-md-none">
+                            <img src="./img/logo-small.png" alt="" class="dark-logo px-3 img-fluid">
+                        </b>
+                        <span>
+                            <!-- dark Logo text -->
+                            <img src="./img/logo.png" alt="homepage" class="dark-logo px-5 img-fluid" />
+                            <!-- Light Logo text -->
+                        </span>
+                    </a>
+                </div>
+                <!-- End Logo -->
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="fa fa-bars"></i></a> </li>
+                        <!-- Search -->
+                        <li class="nav-item hidden-xs-down search-box"> <a
+                                class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
+                                    class="fa fa-search"></i></a>
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search & enter"> <a
+                                    class="srh-btn"><i class="fa fa-times"></i></a></form>
+                        </li>
+                    </ul>
+                    <!-- User profile and search -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- Profile -->
+                        <li class="nav-item dropdown u-pro">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="javascript:void(0)"
+                             aria-haspopup="true" aria-expanded="false" id="dropdownMenuButton" data-toggle="dropdown"><img
+                                    src="./img/profile-img.png" alt="user" class="" /> <span
+                                    class="hidden-md-down">Vijender Singh</span> </a>
+
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item bg-light-info" href="#">Go to Sscrap</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">Edit Profile</a>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- End Topbar header -->
+        <!-- Left Sidebar   -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i
+                                    class="fa fa-tachometer"></i><span class="hide-menu">Overview</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i
+                                    class="fa fa-user-circle-o"></i><span class="hide-menu">Profile</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark active" href="./user.html" aria-expanded="false"><i
+                                    class="fa fa-users"></i><span class="hide-menu">Users</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./bidding.html" aria-expanded="false"><i
+                                    class="fa fa-dollar"></i><span class="hide-menu">Bidders</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./sellers.html" aria-expanded="false"><i
+                                    class="fa fa-cart-plus"></i><span class="hide-menu">Sellers</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./buyers.html" aria-expanded="false"><i
+                                    class="fa fa-dollar "></i><span class="hide-menu">Buyers</span></a>
+                        </li>
+                        <li>
+                            <hr class="my-3">
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./setting.html" aria-expanded="false">
+                            <i class="fa fa-cog"></i><span class="hide-menu">Services</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="./faq.html" aria-expanded="false">
+                            <i class="fa fa-question-circle"></i><span class="hide-menu">FAQ</span></a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+
+        <!-- Page wrapper  -->
+        <div class="page-wrapper">
+            <!-- Container fluid  -->
+            <div class="container-fluid">
+                <div class="row page-titles">
+                    <div class="col-md-5 align-self-center">
+                        <h3 class="text-themecolor">User profiles</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                            <li class="breadcrumb-item active">User Profile</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-7 align-self-center">
+                        <a href="#"
+                            class="btn waves-effect waves-light btn btn-info pull-right hidden-sm-down"> Add new user</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">  
+                                <div class="d-flex pb-2 border-bottom">
+                                    <div class="head">
+                                        <h4 class="card-title mb-0">Users profiles on Sscrap</h4>
+                                    </div>
+                                    <div class="form-inline ml-auto">
+                                        <div class="input-group input-group-sm">
+                                            <div class="input-group-prepend">
+                                              <label class="input-group-text" for="inputGroupSelect01">Display</label>
+                                            </div>
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                              <option selected>10</option>
+                                              <option value="1">20</option>
+                                              <option value="2">50</option>
+                                              <option value="3">100</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-group input-group-sm ml-3">
+                                            <div class="input-group-prepend bg-light-info">
+                                              <label class="input-group-text" for="inputGroupSelect02">Sort</label>
+                                            </div>
+                                            <select class="custom-select" id="inputGroupSelect02">
+                                              <option selected>Date</option>
+                                              <option value="1">Products</option>
+                                              <option value="2">Joined</option>
+                                              <option value="3">Deals</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead> 
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Business Type</th>
+                                                <th scope="col">GST</th>
+                                                <th scope="col">Deals CLosed</th>
+                                                <th scope="col">Joined</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!---- table body main user data -->
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Sam</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2015</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Sam</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2015</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Xoma</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2015</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Sam</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2020</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Zim</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-info">Nil</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2020</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>Sim</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-danger">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2015</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>Jim</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2015</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>Pam</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2020</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>Kim</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-danger">Not verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2015</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>Tim</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">16535</span></td>
+                                                <td><span class="text-right"> 2020</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>Ram</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-success">verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2020</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>rishi</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-danger">Not verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2019</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>12</td>
+                                                <td>Rama</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-danger">Not verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2020</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>13</td>
+                                                <td>Vijju</td>
+                                                <td>Recycler</td>
+                                                <td><h4 class="mb-0"> <span class="badge badge-danger">Not verified</span></h4></td>
+                                                <td> <span class="text-right">1516</span></td>
+                                                <td><span class="text-right"> 2018</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <nav class="mt-3">
+                                    <ul class="pagination">
+                                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+
+                <!-- End Right sidebar -->
+            </div>
+
+            <footer class="footer"> © 2020 ssCrap </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+        </div>
+
+    </div>
+
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/node_modules/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+</body>
+
+</html>
